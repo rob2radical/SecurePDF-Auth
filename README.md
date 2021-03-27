@@ -38,5 +38,8 @@ $ pip install PyQt5
 
 QT Designer: editing visuals of the GUI
 
-$ pip install pyqt5-tools --pre
+https://pythonbasics.org/qt-designer-python/
+sudo apt-get install qttools5-dev-tools
+sudo apt-get install qttools5-dev
+
 
