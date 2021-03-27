@@ -28,8 +28,15 @@ $ pip install pdf2image
 
 # Email and GUI installations 
 
-smtplab sending emails
+smtplab: sending emails
 
 $ pip install secure-smtplib
 
+PyQt5: Overall GUi
+
+$ pip install PyQt5
+
+QT Designer: editing visuals of the GUI
+
+$ pip install pyqt5-tools --pre
 
