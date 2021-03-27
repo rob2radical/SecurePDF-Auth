@@ -35,8 +35,8 @@
    <widget class="QPushButton" name="Authorize">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>290</y>
+      <x>180</x>
+      <y>440</y>
       <width>141</width>
       <height>25</height>
      </rect>
@@ -58,8 +58,8 @@ background-color: rgb(78, 154, 6)</string>
    <widget class="QLineEdit" name="pdfFileInput">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>210</y>
+      <x>100</x>
+      <y>360</y>
       <width>301</width>
       <height>21</height>
      </rect>
@@ -71,10 +71,10 @@ background-color: rgb(78, 154, 6)</string>
    <widget class="QPushButton" name="Browse">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>210</y>
-      <width>91</width>
-      <height>21</height>
+      <x>420</x>
+      <y>350</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -95,8 +95,8 @@ background-color: rgb(196, 160, 0)</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>180</y>
+      <x>100</x>
+      <y>330</y>
       <width>251</width>
       <height>20</height>
      </rect>
@@ -112,8 +112,8 @@ background-color: rgba(255, 255, 255, 0)</string>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>30</y>
+      <x>150</x>
+      <y>40</y>
       <width>351</width>
       <height>81</height>
      </rect>
@@ -132,6 +132,99 @@ background-color: rgba(255, 255, 255, 0)</string>
     </property>
     <property name="text">
      <string>SecurePDF-Auth</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sendEmail">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>270</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(92, 53, 102)</string>
+    </property>
+    <property name="text">
+     <string>Send Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emailCodeInput">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>280</y>
+      <width>301</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 215, 207);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>250</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Fill in code from Email</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>160</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Please fill in signture</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="signature">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>190</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(52, 101, 164)</string>
+    </property>
+    <property name="text">
+     <string>Signature</string>
     </property>
    </widget>
   </widget>
