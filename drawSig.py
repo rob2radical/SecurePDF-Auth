@@ -14,7 +14,7 @@ def draw_rect(event, x, y, flags, param):
         ix, iy = x, y
 
     elif event == cv2.EVENT_MOUSEMOVE:
-        if draw == True:
+        if draw:
             cv2.circle(img, (x, y), 1, (255, 255, 255), -10)
 
     elif event == cv2.EVENT_LBUTTONUP:
