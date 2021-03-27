@@ -26,6 +26,10 @@ Scikit-Learn: General Machine Learning Library
 
 $ pip install pdf2image
 
-#sending emails
+# Email and GUI installations 
 
-pip install secure-smtplib
+smtplab sending emails
+
+$ pip install secure-smtplib
+
+
