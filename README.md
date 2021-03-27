@@ -25,3 +25,28 @@ Scikit-Learn: General Machine Learning Library
 # To convert pdf to images we need to install the pdf2image library
 
 $ pip install pdf2image
+
+# Email and GUI installations 
+
+smtplab: sending emails
+
+$ pip install secure-smtplib
+
+PyQt5: Overall GUi
+
+$ pip install PyQt5
+
+QT Designer: editing visuals of the GUI
+
+https://pythonbasics.org/qt-designer-python/
+
+sudo apt-get install qttools5-dev-tools
+
+sudo apt-get install qttools5-dev
+
+# Database connection:
+
+sudo apt-get install libpq-dev
+
+$ pip install psycopg2
+
