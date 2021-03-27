@@ -50,3 +50,5 @@ sudo apt-get install libpq-dev
 
 $ pip install psycopg2
 
+$ pip install --upgrade google-cloud-storage
+

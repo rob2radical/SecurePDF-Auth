@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rowdyhacks2021",
+  "private_key_id": "eed57b5077a661bb358f91433b1b6746ba3d60ca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDC2JS9tW/02O0R\nc2GO2MNs31V4XMw4VWyyp7o6+hK1mCsoQE9CiSBOFQe+VDhky2zgIhicBbyiW+2o\nx3Sm/ECOswaph5uwj6W60BFEWXozPbEWYTQCdUSboSqpuJXOEOu1U/epQMoBbXLv\nEWBQhmdYxXvLQjDziFzsGSvR1u4RWRmrPdekhWTb2g6wgdVORaqvHGOWpPNNVecg\n+L9Zwrs2BkrVWklF49eYAGqHAaEsIaBquP2jZ7zY34NMCc9ZX2UcasT/lrd4EeCx\ndKZoUgAvpF8sglcktUd+XlcEyoUMTgmyXteypGdQaLLph6o5HwPEukGMtplkm7XZ\n/ull8/7lAgMBAAECggEAA6uFgQhCmQD1VYDlRhtGR7ic2RpIXMmbypwBqZGNxNQJ\nALurXS8M3SOkxHHnflsy4bWKs0pMCgkuEgyFtuJ6oHrLReoFuvQ4Xystnr+1CfOK\nxceOwvrB+tDKPK2lzAlCDfrhp+i46qt3gNIZ4hJnWRhJKLmGXK6axMtZlFzWbvGv\nSKqQMRBGeds85CmEzazTW1VEvuyvs7AYDtWhyHa1/wa3MpuETRRcgIZ0C7+ou9ZV\n7LnwG5QN7L+069f9jEnxBi1G2eAjsuqpuLm3HrS3Oo/jbt7Y3uBnHFxvbj6/tKL2\nwUZBRxN0s7gM246NSvr6ZR5H9jHktodU2dAPET4lKQKBgQD/5uPxz+WtbhpzHMv7\njYD0PVVrL8O7pYooNVkCXeOTzTE+QnNYDXwo1chBhypkwyPccRxa2trXsVNa5fwf\ny9GIv0KiE02NlO7FcS/4QFtXttomXCnqOFT+2Y1oFbRFbYZjOJiYyf44er4yJ3Vy\n/cSn15rW6XPe4TZtZ4kk2LNKHQKBgQDC67MeyIzwn1sLJ17BgCQe4cYf2fm26Zi/\nQ3s/olWUTolpI5P9Yl3rKnlv72XD5xWhMMme/shYT7xW8jrQhWqcCFfHBQknCpYX\nG/RQ4jHzBWhR2pH1oV3rMlAEcoPGh+pBGeiOpiI6aXZUY9VPZx/Mbh1PD3oM6czc\nyMBHUJmtaQKBgD8dj3MAt8FCurtRiu4MRJX42qyJJ1mMxrqMDdwLlCnMHi0g7pn1\nGX5o2+9tiwM3Lg0cyMWP3RH95nUw7DJbbt6vbZvT7vjQluOTuyUbmmvT6ZI0gRIH\nus7wkXPuhnvpO5AVUW29xDnh7C8qlEk8Vdif0MzY339FRMtPEgBIgk/xAoGADI3b\nuobWNQU+euhtPO9A5FBMT27dm39OHDt/a6jL9EJerUviUzaLsALLUX9MwaJXjUs0\nIS5tvupbygnN6fI93JDY/nN/lGklI5XkVXVMHEfj4Sm/rt9WyjgyWSb6/8VvPAQs\nK0vd9n8mZOcNLREKRkNtVdM8XCqOzEWNxMoXK8kCgYEA6WKuvK5eVd1I7gud4Bd9\nSyjfFQxjAs0FwgX/oxz5A+gm6VbV2ArH+vWcZUAwbzdQ2UHEhtSP/VT4Fwbs9Pku\nyfsid2dDCwtEaDBlY36ZT7Q9T2kAuq778N65d5SHwLMkhqFY2kZ+uiYvZNRPMbo9\n3lbVnpLGmEDCzrilJSlCwjE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "imguploadsvc@rowdyhacks2021.iam.gserviceaccount.com",
+  "client_id": "100144319507139891810",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/imguploadsvc%40rowdyhacks2021.iam.gserviceaccount.com"
+}
