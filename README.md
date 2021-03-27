@@ -25,3 +25,7 @@ Scikit-Learn: General Machine Learning Library
 # To convert pdf to images we need to install the pdf2image library
 
 $ pip install pdf2image
+
+#sending emails
+
+pip install secure-smtplib
