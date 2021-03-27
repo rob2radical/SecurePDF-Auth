@@ -44,4 +44,9 @@ sudo apt-get install qttools5-dev-tools
 
 sudo apt-get install qttools5-dev
 
+# Database connection:
+
+sudo apt-get install libpq-dev
+
+$ pip install psycopg2
 
