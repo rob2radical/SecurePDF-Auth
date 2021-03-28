@@ -1,12 +1,13 @@
 import psycopg2
 import hashlib
+import os
+import requests
 from google.cloud import storage
 from google.oauth2 import service_account
 
 optionstring = 'host="rowdyhacks21-8nz.gcp-us-east1.cockroachlabs.cloud", database="rowdy21.signatures", user="secureagent", password="w*24VYZ*xaG%gkbr&", sslmode="verify-full", sslrootcert="rowdyhacks21-ca.crt", port=26257'
 bucket_name = "securepdf-sig-store" 
-projecturl = "http://35.201.121.26" #Leaving this until DNS records update
-
+projecturl = "http://pdfauth.tech" 
 stor_key = "blobstoragekey.json"
 
 def connect_to_db():
@@ -70,4 +71,26 @@ def addsig(id, filename):
     conn.commit()
     cursor.close()
     conn.close()
+
+#Returns a list of image file names, which are images on disk in the cache directory
+def getsigs(id):
+    #Make sure cache directory exists
+    if not os.path.exists(os.path.join(os.getcwd(), "cache")):
+        os.mkdir("cache")
+
+    #Get all rows with the right ID
+    cursor, conn = connect_to_db()
+    cursor.execute("select hash, address from signatures where id = %s;", id)
+    signatures = cursor.fetchall()
+    hashlist = []
+
+    #Download each file found in the row and then add the filename to the list of saved files
+    for row in signatures:
+        if not os.path.exists(os.path.join(os.getcwd(), "cache", row[0])): #Check if the file exists on local disk
+            tmpimg = requests.get(projecturl + "/" + row[1]) #If not, grab from server
+            open("cache/" + row[0], 'wb').write(tmpimg.content)
+        hashlist.append("cache/" + row[0])
+    cursor.close()
+    conn.close()
+    return hashlist
 
