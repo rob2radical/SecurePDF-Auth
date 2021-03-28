@@ -80,6 +80,5 @@ $ pip install --upgrade google-cloud-storage google-auth
   * item 2
 
 **N**icolas Ruiz
-  * syngenruiz2@gmail.com
   * [LinkedIn](www.linkedin.com/in/nicolas-s-ruiz)
   * [Twitter](https://twitter.com/NicRuiz88)
