@@ -54,7 +54,7 @@ for c in cnt:
 matplotlib.pyplot.imshow(origin)
 remove_white_space(origin)
 
-pic = cv2.cvtColor(cv2.imread('sample_2.png'), cv2.COLOR_BGR2RGB)
+pic = cv2.cvtColor(cv2.imread('02100001.png'), cv2.COLOR_BGR2RGB)
 wrong_image = cv2.resize(cv2.cvtColor(pic.copy(), cv2.COLOR_BGR2GRAY), (100, 100))
 original_image = cv2.resize(cv2.cvtColor(cropped_image.copy(), cv2.COLOR_BGR2GRAY), (100, 100))
 
