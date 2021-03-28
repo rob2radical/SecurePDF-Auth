@@ -20,13 +20,13 @@ $ pip install numpy
 
 Matplotlib: Plotting images
 
-```shel
+```shell
 $ pip install matplotlib 
 ```
 
 Scikit-Learn: General Machine Learning Library
 
-```shel
+```shell
 $ pip install -U scikit-learn
 ```
 
