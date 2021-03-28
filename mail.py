@@ -9,9 +9,11 @@ def sendMail():
     TEXT = "Hello world"
 
     message = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
+    print("The hashed message is : " + str(hash(message)))
 
 
     server.sendmail("testAccntPgrm2@yahoo.com",
-                    "isaiasmtz12@yahoo.com",
+                    "qrobert@rocketmail.com",
                     message)
     server.quit()
+sendMail()
