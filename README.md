@@ -8,47 +8,62 @@ Python 3.8
 
 TensorFlow 2: The Deep Learning Library
 
--> $ pip install tensorflow
+```shell
+$ pip install tensorflow
+```
 
 Numpy: Linear Algebra
 
--> $ pip install numpy
+```shell
+$ pip install numpy
+```
 
 Matplotlib: Plotting images
 
--> $ pip install matplotlib 
+```shel
+$ pip install matplotlib 
+```
 
 Scikit-Learn: General Machine Learning Library
 
--> $ pip install -U scikit-learn
+```shel
+$ pip install -U scikit-learn
+```
 
 ### **To convert pdf to images we need to install the pdf2image library:**
 
+```shell
 $ pip install pdf2image
+```
 
 ### **Email and GUI installations:** 
 
 smtplab: sending emails
 
+```shell
 $ pip install secure-smtplib
+```
 
 PyQt5: Overall GUi
 
+```shell
 $ pip install PyQt5
+```
 
 [QT Designer](https://pythonbasics.org/qt-designer-python/): editing visuals of the GUI
 
-sudo apt-get install qttools5-dev-tools
-
-sudo apt-get install qttools5-dev
+```shell
+$ sudo apt-get install qttools5-dev-tools
+$ sudo apt-get install qttools5-dev
+```
 
 ### **Database connection:**
 
-sudo apt-get install libpq-dev
-
+```shell
+$ sudo apt-get install libpq-dev
 $ pip install psycopg2
-
 $ pip install --upgrade google-cloud-storage google-auth
+```
 
 ## Contributors
 
