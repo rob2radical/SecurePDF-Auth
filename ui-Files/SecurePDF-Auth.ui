@@ -22,6 +22,12 @@
     <height>700</height>
    </size>
   </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -35,10 +41,10 @@
    <widget class="QPushButton" name="Authorize">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>440</y>
-      <width>141</width>
-      <height>25</height>
+      <x>230</x>
+      <y>420</y>
+      <width>110</width>
+      <height>40</height>
      </rect>
     </property>
     <property name="font">
@@ -73,8 +79,8 @@ background-color: rgb(78, 154, 6)</string>
      <rect>
       <x>420</x>
       <y>350</y>
-      <width>111</width>
-      <height>41</height>
+      <width>110</width>
+      <height>40</height>
      </rect>
     </property>
     <property name="font">
@@ -120,7 +126,7 @@ background-color: rgba(255, 255, 255, 0)</string>
     </property>
     <property name="font">
      <font>
-      <family>Vemana2000</family>
+      <family>Ubuntu</family>
       <pointsize>28</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -139,8 +145,8 @@ background-color: rgba(255, 255, 255, 0)</string>
      <rect>
       <x>420</x>
       <y>270</y>
-      <width>111</width>
-      <height>41</height>
+      <width>110</width>
+      <height>40</height>
      </rect>
     </property>
     <property name="font">
@@ -209,8 +215,8 @@ background-color: rgba(255, 255, 255, 0)</string>
      <rect>
       <x>230</x>
       <y>190</y>
-      <width>111</width>
-      <height>41</height>
+      <width>110</width>
+      <height>40</height>
      </rect>
     </property>
     <property name="font">

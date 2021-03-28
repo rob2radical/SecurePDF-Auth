@@ -6,6 +6,12 @@
 
 Python 3.8
 
+OpenCV-Python
+
+```shell
+$ sudo apt-get install python3-opencv
+```
+
 TensorFlow 2: The Deep Learning Library
 
 ```shell
@@ -68,16 +74,13 @@ $ pip install --upgrade google-cloud-storage google-auth
 ## Contributors
 
 **R**obert Quintanilla
-  * item 1
-  * item 2
+  * [LinkedIn](https://www.linkedin.com/in/robert-quintanilla-462710181)
  
 **A**ndrew DiCarlo
   * [LinkedIn](https://www.linkedin.com/in/andrew-dicarlo-192348141/)
  
 **I**saias Martinez
   * item 1
-  * item 2
 
 **N**icolas Ruiz
   * [LinkedIn](www.linkedin.com/in/nicolas-s-ruiz)
-  * [Twitter](https://twitter.com/NicRuiz88)
