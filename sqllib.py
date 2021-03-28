@@ -5,6 +5,10 @@ import requests
 from google.cloud import storage
 from google.oauth2 import service_account
 
+
+#We have secrets in a public git repo. This is bad. This is very, very bad.
+#However, due to time constraints and the ephemeral nature of this project, we're choosing to ignore this
+#If we had time to do it the right way, we'd create a server with access to the database and then send requests to that
 optionstring = 'host="rowdyhacks21-8nz.gcp-us-east1.cockroachlabs.cloud", database="rowdy21.signatures", user="secureagent", password="w*24VYZ*xaG%gkbr&", sslmode="verify-full", sslrootcert="rowdyhacks21-ca.crt", port=26257'
 bucket_name = "securepdf-sig-store" 
 projecturl = "http://pdfauth.tech" 
