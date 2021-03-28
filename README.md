@@ -1,4 +1,4 @@
-# SecurePDF-Auth
+# **SecurePDF-Auth**
 
 **Web based application that verifies the authenticity of a signature in a pdf file**
 
