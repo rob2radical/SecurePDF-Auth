@@ -72,8 +72,7 @@ $ pip install --upgrade google-cloud-storage google-auth
   * item 2
  
 **A**ndrew DiCarlo
-  * item 1
-  * item 2
+  * [LinkedIn](https://www.linkedin.com/in/andrew-dicarlo-192348141/)
  
 **I**saias Martinez
   * item 1
