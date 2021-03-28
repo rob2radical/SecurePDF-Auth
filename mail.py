@@ -5,8 +5,8 @@ def sendMail():
     server.login("testAccntPgrm2@yahoo.com", "lgeutogztgcpcydh")
 
     # message to be sent
-    SUBJECT = "Hello Dummy"
-    TEXT = "Hello world"
+    SUBJECT = "Verification Code"
+    TEXT = "67C6B5"
 
     message = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
     print("The hashed message is : " + str(hash(message)))
