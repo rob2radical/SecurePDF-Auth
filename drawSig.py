@@ -31,7 +31,7 @@ img = np.zeros((512, 512, 3), np.uint8)
 cv2.namedWindow(winname='Signature')
 cv2.setMouseCallback('Signature', draw_rec)
 while True:
-    cv2.imshow('Signature', img)
+    cv2.imshow('Sign', img)
     if cv2.waitKey(1) & 0xFF == 27:
         break
 

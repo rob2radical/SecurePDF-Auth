@@ -8,7 +8,7 @@ import numpy
 
 def remove_white_space(im):
     gray_color = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-    blur = cv2.cvtColor(gray_color, (25, 25), 0)
+    blur = cv2.GaussianBlur(gray_color, (25, 25), 0)
     thresh = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY_INV +
                            cv2.THRESH_OTSU)[1]
 
@@ -19,7 +19,8 @@ def remove_white_space(im):
 
     cords = cv2.findNonZero(close)
     x, y, w, h = cv2.boundingRect(cords)
-    return image[y:y + h, x:x + w]
+    cropped_image = image[y:y+h, x:x+w]
+    return cropped_image
 
 
 image = convert_from_path('/home/qsy775/SecurePDF-Auth/Dependent Verification Form.pdf')
@@ -43,7 +44,7 @@ edged = cv2.Canny(gray, 80, 200)
 matplotlib.pyplot.imshow(edged, 'gray')
 
 cnt = cv2.findContours(edged.copy(), cv2.RETR_LIST,
-                        cv2.CHAIN_APPROX_SIMPLE)
+                       cv2.CHAIN_APPROX_SIMPLE)
 cnt = imutils.grab_contours(cnt)
 cnt = sorted(cnt, key=cv2.contourArea, reverse=True)[:1]
 for c in cnt:
@@ -52,9 +53,8 @@ for c in cnt:
     x, y, w, h = cv2.boundingRect(approx)
     cv2.rectangle(origin, (x, y), (x + w, y + h), (255, 0, 0), 2)
 matplotlib.pyplot.imshow(origin)
-remove_white_space(origin)
 
-pic = cv2.cvtColor(cv2.imread('02100001.png'), cv2.COLOR_BGR2RGB)
+pic = cv2.cvtColor(cv2.imread('/home/qsy775/SecurePDF-Auth/SecurePDF-Auth/02100001.png'), cv2.COLOR_BGR2RGB)
 wrong_image = cv2.resize(cv2.cvtColor(pic.copy(), cv2.COLOR_BGR2GRAY), (100, 100))
 original_image = cv2.resize(cv2.cvtColor(cropped_image.copy(), cv2.COLOR_BGR2GRAY), (100, 100))
 
