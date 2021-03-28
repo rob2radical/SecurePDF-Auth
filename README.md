@@ -68,7 +68,7 @@ $ pip install --upgrade google-cloud-storage google-auth
 ## Contributors
 
 **R**obert Quintanilla
-  * [LinkedIn](www.linkedin.com/in/robert-quintanilla-462710181)
+  * [LinkedIn](https://www.linkedin.com/in/robert-quintanilla-462710181)
  
 **A**ndrew DiCarlo
   * [LinkedIn](https://www.linkedin.com/in/andrew-dicarlo-192348141/)
