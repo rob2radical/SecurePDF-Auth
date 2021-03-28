@@ -1,8 +1,8 @@
 # SecurePDF-Auth
 
-Web based application that verifies the authenticity of a signature in a pdf file
+**Web based application that verifies the authenticity of a signature in a pdf file**
 
-Dependencies/Requirements
+## Dependencies/Requirements
 
 Python 3.8
 
@@ -22,11 +22,11 @@ Scikit-Learn: General Machine Learning Library
 
 -> $ pip install -U scikit-learn
 
-# To convert pdf to images we need to install the pdf2image library
+### To convert pdf to images we need to install the pdf2image library
 
 $ pip install pdf2image
 
-# Email and GUI installations 
+### Email and GUI installations 
 
 smtplab: sending emails
 
@@ -36,15 +36,13 @@ PyQt5: Overall GUi
 
 $ pip install PyQt5
 
-QT Designer: editing visuals of the GUI
-
-https://pythonbasics.org/qt-designer-python/
+[QT Designer](https://pythonbasics.org/qt-designer-python/): editing visuals of the GUI
 
 sudo apt-get install qttools5-dev-tools
 
 sudo apt-get install qttools5-dev
 
-# Database connection:
+### Database connection:
 
 sudo apt-get install libpq-dev
 
@@ -52,3 +50,21 @@ $ pip install psycopg2
 
 $ pip install --upgrade google-cloud-storage google-auth
 
+## Contributors
+
+**Robert Quintanilla**
+  * item 1
+  * item 2
+ 
+**Andrew DiCarlo**
+  * item 1
+  * item 2
+ 
+**Isaias**
+  * item 1
+  * item 2
+
+**Nicolas Ruiz**
+  * syngenruiz2@gmail.com
+  * [LinkedIn](www.linkedin.com/in/nicolas-s-ruiz)
+  * [Twitter](https://twitter.com/NicRuiz88)
