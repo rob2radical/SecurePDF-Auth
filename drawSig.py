@@ -26,18 +26,18 @@ def draw_rec(event, former_x, former_y, flags, param):
             current_former_y = former_y
     return former_x, former_y
 
+def signaturePad():
+    img = np.zeros((512, 512, 3), np.uint8)
+    cv2.namedWindow(winname='Signature')
+    cv2.setMouseCallback('Signature', draw_rec)
+    while True:
+        cv2.imshow('Signature', img)
+        if cv2.waitKey(1) & 0xFF == 27:
+            break
 
-img = np.zeros((512, 512, 3), np.uint8)
-cv2.namedWindow(winname='Signature')
-cv2.setMouseCallback('Signature', draw_rec)
-while True:
-    cv2.imshow('Signature', img)
-    if cv2.waitKey(1) & 0xFF == 27:
-        break
+        if cv2.getWindowProperty('Signature',cv2.WND_PROP_VISIBLE) == 0:
+            break
 
-    if cv2.getWindowProperty('Signature',cv2.WND_PROP_VISIBLE) == 0:
-        break
-
-cv2.destroyAllWindows()
+    cv2.destroyAllWindows()
 
 # return the png here

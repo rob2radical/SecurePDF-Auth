@@ -22,7 +22,7 @@ def remove_white_space(im):
     return image[y:y + h, x:x + w]
 
 
-image = convert_from_path('/home/qsy775/SecurePDF-Auth/Dependent Verification Form.pdf')
+image = convert_from_path('Dependent Verification Form.pdf')
 
 for i in image:
     i = numpy.array(i)
