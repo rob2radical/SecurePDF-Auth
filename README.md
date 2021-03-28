@@ -6,6 +6,12 @@
 
 Python 3.8
 
+OpenCV-Python
+
+```shell
+$ sudo apt-get install python3-opencv
+```
+
 TensorFlow 2: The Deep Learning Library
 
 ```shell

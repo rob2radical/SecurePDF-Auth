@@ -8,8 +8,8 @@ def sendMail():
     SUBJECT = "Verification Code"
     TEXT = "67C6B5"
 
-    message = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
-    print("The hashed message is : " + str(hash(message)))
+    message = str(hash('Subject: {}\n\n{}'.format(SUBJECT, TEXT)))
+    #print("The hashed message is : " + str(hash(message)))
 
 
     server.sendmail("testAccntPgrm2@yahoo.com",
